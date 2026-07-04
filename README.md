@@ -42,7 +42,7 @@ user/ex2.uvprojx
 
 代码中可以直接看到的主要模块和接口如下：
 
-- 主控：`STM32F103C8`；
+- 主控：`STM32F103RCT6`；
 - 姿态模块：MPU6050/DMP，工程中包含 `MPU6050.c`、`IOI2C.c`、`inv_mpu.c`、`inv_mpu_dmp_motion_driver.c`、`filter.c`；
 - 灰度/循迹传感器：五路输入，`bsp_track.c` 中使用 PC9、PB12、PA11、PC10、PC12；
 - 电机驱动：TIM2 PWM，PA0/PA1 为 PWM 输出，PA5/PA4/PB4/PB3 为方向控制；
