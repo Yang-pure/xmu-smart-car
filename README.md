@@ -23,7 +23,7 @@
 26年五月电赛校赛/car-deepseek/car-deepseek/ex7-1 mpu6050
 ```
 
-工程目标芯片为 `STM32F103RC`，使用 Keil MDK 打开：
+工程目标芯片为 `STM32F103C8`，使用 Keil MDK 打开：
 
 ```text
 user/ex2.uvprojx
@@ -42,7 +42,7 @@ user/ex2.uvprojx
 
 代码中可以直接看到的主要模块和接口如下：
 
-- 主控：`STM32F103RCT6`；
+- 主控：`STM32F103C8T6`；
 - 姿态模块：MPU6050/DMP，工程中包含 `MPU6050.c`、`IOI2C.c`、`inv_mpu.c`、`inv_mpu_dmp_motion_driver.c`、`filter.c`；
 - 灰度/循迹传感器：五路输入，`bsp_track.c` 中使用 PC9、PB12、PA11、PC10、PC12；
 - 电机驱动：TIM2 PWM，PA0/PA1 为 PWM 输出，PA5/PA4/PB4/PB3 为方向控制；
@@ -92,7 +92,7 @@ user/ex2.uvprojx
 ## 编译与烧录
 
 1. 使用 Keil MDK 打开 `user/ex2.uvprojx`。
-2. 确认目标芯片为 `STM32F103RC`。
+2. 确认目标芯片为 `STM32F103C8T6`。
 3. 确认包含路径中有：
 
 ```text
