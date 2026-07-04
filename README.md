@@ -23,7 +23,7 @@
 26年五月电赛校赛/car-deepseek/car-deepseek/ex7-1 mpu6050
 ```
 
-工程目标芯片为 `STM32F103C8`，使用 Keil MDK 打开：
+工程目标芯片为 `STM32F103RC`，使用 Keil MDK 打开：
 
 ```text
 user/ex2.uvprojx
@@ -92,7 +92,7 @@ user/ex2.uvprojx
 ## 编译与烧录
 
 1. 使用 Keil MDK 打开 `user/ex2.uvprojx`。
-2. 确认目标芯片为 `STM32F103C8`。
+2. 确认目标芯片为 `STM32F103RC`。
 3. 确认包含路径中有：
 
 ```text
