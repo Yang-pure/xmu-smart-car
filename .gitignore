@@ -1,0 +1,58 @@
+# Keil / MDK build outputs
+**/Objects/
+**/Listings/
+**/DebugConfig/
+*.axf
+*.bin
+*.hex
+*.elf
+*.o
+*.d
+*.crf
+*.lst
+*.map
+*.lnp
+*.dep
+*.htm
+*.build_log.htm
+*.iex
+*.uvl
+*.scvd
+
+# Local Keil user/session files
+*.uvopt
+*.uvoptx
+*.uvgui.*
+*.uvguix.*
+
+# Temporary/editor/OS files
+*.tmp
+*.bak
+*.log
+~$*
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Archives, installers, and large unrelated media
+*.zip
+*.rar
+*.7z
+*.exe
+*.msi
+*.mp4
+*.avi
+*.mov
+
+# Internal agent planning notes
+.planning/
+
+# Local experiment/source leftovers not referenced by user/ex2.uvprojx
+cmsis/startup_stm32f10x_hd.s
+user/main2.c
+user/delay.c
+driver/sys.c
+driver/systick.c
+driver/encoder.c
+driver/encoder1.c
+driver/motor.c
