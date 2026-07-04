@@ -105,6 +105,4 @@ Keil 生成的 `Objects/`、`Listings/`、`DebugConfig/`，以及 `.uvoptx`、`.
 
 ## 联系方式
 
-- 姓名：杨济恺
-- 电话：17823829387
 - 邮箱：37120252204415@stu.xmu.edu.cn
